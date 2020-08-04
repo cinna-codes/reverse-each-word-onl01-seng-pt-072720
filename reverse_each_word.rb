@@ -13,7 +13,7 @@ end
 
 def reverse_each_word(sentence)
   revwords = sentence.split
-  revwords = revwords.map do |words|
+  revwords = revwords.collect do |words|
     words.reverse
   end
 revwords.join(" ")
