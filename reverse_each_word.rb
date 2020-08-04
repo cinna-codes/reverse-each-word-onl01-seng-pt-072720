@@ -4,8 +4,8 @@ def reverse_each_word(sentence)
   revval.each do |words|
     revwords << words.reverse
   end
-  revwords.join(" ")
-  revwords
+  revwords = revwords.join(" ")
+  return revwords
 end
 
 # string.split
