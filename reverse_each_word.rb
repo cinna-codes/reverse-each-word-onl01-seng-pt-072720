@@ -2,7 +2,7 @@ def reverse_each_word(sentence)
   revwords = []
   revval = sentence.split
   revval.each do |rev|
-    revval = rev.reverse
+    puts rev.reverse
   end
 end
 
